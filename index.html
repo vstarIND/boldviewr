@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bold Script - Premium Membership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff4444, #ffcc00);
+            padding: 20px;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: black;
+        }
+
+        .plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            flex-grow: 1;
+        }
+
+        .plan {
+            background: #222;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+
+        .featured {
+            border: 2px solid #ffcc00;
+            background: #1e1e1e;
+        }
+
+        h2 {
+            color: #ffcc00;
+        }
+
+        button {
+            background: #ff4444;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: #ffcc00;
+            color: black;
+        }
+
+        /* Animated Footer */
+        footer {
+            background: linear-gradient(to right, #ff4444, #ffcc00);
+            padding: 15px;
+            color: black;
+            font-weight: bold;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.2);
+            text-align: center;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Bold Script Viewer Memberships
+        <p>Unlock exclusive content and premium features.</p>
+    </header>
+
+    <section class="plans">
+        <div class="plan">
+            <h2>Basic Plan</h2>
+            <p><strong>₹29 / month</strong></p>
+            <p>✔ Unlimited PDF downloads</p>
+            <p>✔ Standard formatting</p>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="plan">
+            <h2>Advanced Plan</h2>
+            <p><strong>₹59 / month</strong></p>
+            <p>✔ Unlimited PDF downloads</p>
+            <p>✔ Ad-free experience</p>
+            <p>✔ Priority access to new uploads</p>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="plan">
+            <h2>Pro Plan</h2>
+            <p><strong>₹99 / month</strong></p>
+            <p>✔ Unlimited PDF downloads</p>
+            <p>✔ Ad-free experience</p>
+            <p>✔ Early access to premium content</p>
+            <p>✔ Customizable reading features</p>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="plan featured">
+            <h2>Ultimate Plan</h2>
+            <p><strong>₹199 / month</strong></p>
+            <p>✔ Unlimited PDF downloads</p>
+            <p>✔ Full premium access to all content</p>
+            <p>✔ No ads</p>
+            <p>✔ Premium support & exclusive offers</p>
+            <p>✔ Personalized recommendations</p>
+            <button>Select Plan</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Bold Script. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
